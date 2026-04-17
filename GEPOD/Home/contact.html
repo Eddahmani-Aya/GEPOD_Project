@@ -1,0 +1,337 @@
+<!--
+Author: AYA EDDAHMANI
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>GEPOD | Contact</title>
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg stroke">
+                <h1>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="pic/logo.svg" alt="GEPOD" title="GEPOD" style="height:70px;" />
+                    </a>
+                </h1>
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html" id="header-Accueil"> <span class="sr-only">(current)</span>Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" id="header-apropos">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" id="header-contact">Contact</a>
+                        </li>
+                    </ul>
+                     <!-- toggle switch for light and dark theme -->
+                    <div class="cont-ser-position">
+                        <nav class="navigation">
+                            <div class="theme-switch-wrapper">
+                                <label class="theme-switch" for="checkbox">
+                                    <input type="checkbox" id="checkbox">
+                                    <div class="mode-container">
+                                        <i class="gg-sun"></i>
+                                        <i class="gg-moon"></i>
+                                    </div>
+                                </label>
+                            </div>
+                        </nav>
+                    </div>    
+                    <!-- //toggle switch for light and dark theme -->
+                     <!-- Language Switcher -->
+                    <div class="language-switcher">
+                        <select id="language-select">
+                            <option value="fr" selected>FR</option>
+                            <option value="en">EN</option>
+                            <option value="ar">AR</option>
+                        </select>
+                    </div>
+                     <!-- Language Switcher -->
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--//header-->
+    <!-- inner banner -->
+    <div class="inner-banner">
+        <section class="w3l-breadcrumb">
+            <div class="container">
+                <h4 id="banner-title" class="inner-text-title font-weight-bold mb-sm-3 mb-2">Nous contacter</h4>
+                <ul class="breadcrumbs-custom-path">
+                    <li><a href="index.html" id="banner-Accueil">Accueil</a></li>
+                    <li class="active" id="banner-contact"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span> Nous contacter </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <!-- //inner banner -->
+    <!-- contact -->
+    <section class="contact py-5" >
+        <div class="container py-md-4 py-3">
+            <div class="title-main text-center mx-auto mb-md-4">
+                <h3 id="page-title" class="title-big">Contact</h3>
+                <p id="section-subtitle" class="sub-title mt-2">Prendre contact directement avec nous</p>
+            </div>
+            <div class="main-grid-contact">
+                <div class="row mt-5 mx-0">
+                    <!-- map -->
+                    <div class="col-lg-6 map mt-lg-0 mt-3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.533369738598!2d-7.640823885458147!3d33.59146294931968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2ee6e1289f7%3A0xba5831df6e1a8259!2sGEPOD!5e0!3m2!1sfr!2sma!4v1654124739177!5m2!1sfr!2sma"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <!-- contact form -->
+                    <div class="col-lg-6 content-form-right p-0">
+                        <div class="form-w3ls p-md-5 p-4">
+                            <h4 id="form-title" class="mb-4 sec-title-w3">Envoyez-nous un message</h4>
+                            <form method="post" action="https://formsubmit.co/6b148859beddc2c2cfb8c4341e62446e">
+                                <div class="form-field">
+                                    <input id="form-prenom" required="" placeholder="Prenom" class="input-field" type="text"/>
+                                </div>
+                                <div class="form-field">
+                                    <input id="form-nom"  required="" placeholder="Nom" class="input-field" type="text" />
+                                </div>
+                                <div class="form-field">
+                                    <input id="form-email" required="" placeholder="Email" class="input-field" type="email" />
+                                </div>
+                                <div class="form-field">
+                                    <input id="form-phone" required="" placeholder="Numéro de téléphone" class="input-field" type="text" />
+                                </div>
+                                <div class="form-field">
+                                    <textarea id="form-message" required="" placeholder="Message"  class="input-field"></textarea>
+                                </div>
+                                <div class="form-field">
+                                    <input type="text" name="_honey" style="display:none" class="input-field">
+                                </div>
+                                <div class="form-field">
+                                    <input type="hidden" name="_next" value="https://gepod.net/thanks.html" class="input-field">
+                                </div>
+                                <button id="form-btn" class="sendMessage-btn ">Envoyer</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //contact -->
+    <!-- support -->
+    <div class="support py-5" id="support">
+        <div class="container pb-md-5 pb-3">
+            <h3 id="section-title" class="title-w3ls text-center mb-5">Nos coordonnées</h3>
+            <div class="row support-bottom text-center mb-5">
+                <div class="col-lg-4 col-sm-6 support-grid">
+                    <span class="fa fa-phone"></span>
+                    <h5 id="text-tel" class="text-uppercase mt-3 mb-2">Tél</h5>
+                    <p>+212(0) 5 22 36 62 31 / +212(0) 5 22 36 23 50</p>
+                    <a id="btn-tel" href="callto://+212522366231" class="btn button-style button-2 mt-4">
+                        Appelez-nous maintenant
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 support-grid mt-sm-0 mt-4">
+                    <span class="fa fa-envelope"></span>
+                    <h5 id="text-E-Mail" class="text-uppercase mt-3 mb-2">E-Mail</h5>
+                    <p>info@gepod.net</p>
+                    <a id="btn-E-Mail" href="contact.html" class="btn button-style button-2 mt-4">
+                        Envoyez-nous un e-mail
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 support-grid mt-lg-0 mt-4">
+                    <span class="fa fa-map-marker"></span>
+                    <h5 id="text-Adresse" class="text-uppercase mt-3 mb-2">Adresse</h5>
+                    <p id="text-location">18, Rue Ahmed Al Mokri, 20050 Casablanca, Maroc</p>
+                    <a id="btn-Adresse" href="https://goo.gl/maps/hzeGV6UBDaAALQ4J8" class="btn button-style button-2 mt-4">
+                        Trouvez-nous
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- support -->
+ <!-- footer -->
+     <footer class="w3l-footer-22 position-relative mt-5 pt-5">
+        <div class="footer-sub">
+            <div class="container">
+                <div class="text-txt">
+                    <div class="right-side text-center">
+                        <h4 id="footer-contact-title">êtes-vous intéressé par <br> nos produits et services</h4>
+                        <a id="footer-contact-btn" class="btn button-style mt-4" href="contact.html">Contactez-nous<i class="fa fa-angle-double-right"
+                                aria-hidden="true"></i></a>
+                    </div>
+                    <div class="row sub-columns">
+                        <div class="col-lg-4 col-md-6 col-sm-8 sub-one-left">
+                            <h6 id="footer-apropos">À propos</h6>
+                            <p id="footer-about">
+                                GEPOD<br>
+                                FORME JURIDIQUE : Société Anonyme<br>
+                                CREATION : 2004<br>
+                                CAPITAL : S.a. 1,800,000.00 DH<br>
+                                ICE : 000079713000082<br>
+                                RC : 132929<br>
+                            </p>
+                            
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-4 mt-sm-0 mt-5 sub-two-right">
+                            <h6 id="footer-liens">Liens Rapides</h6>
+                            <ul>
+                                <li><a href="index.html" id="L-Accueil"><span class="fa fa-angle-double-right mr-2"></span>Accueil</a></li>
+                                <li><a href="about.html" id="L-apropos"><span class="fa fa-angle-double-right mr-2" id="header-apropos"></span>A propos</a></li>
+                                <li><a href="contact.html" id="L-contact"><span class="fa fa-angle-double-right mr-2"></span>Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 sub-one-left mt-lg-0 mt-sm-5 mt-4">
+                            <h6 id="contact" >Nous contacter </h6>
+                            <div class="column2">
+                                <div class="href1"><span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                    <a href="info@gepod.net"><span class="__cf_email__" >info@gepod.net</a>
+                                </div>
+                                <div class="href2"><span class="fa fa-phone" aria-hidden="true"></span>
+                                    <a href="tel:+212(0) 5 22 36 62 31">+212(0) 5 22 36 62 31</a>
+
+                                    <div class="href2"><span class="fa fa-phone" aria-hidden="true"></span>
+                                        <a href="tel:+212(0) 5 22 36 23 50">+212(0) 5 22 36 23 50</a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p id="footer-location" class="contact-para"><span class="fa fa-map-marker" aria-hidden="true"></span>
+                                        18, Rue Ahmed Al Mokri, 20050 Casablanca, Maroc</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 sub-one-left mt-lg-0 mt-sm-5 mt-4">
+                            <h6 id="footer-Social" >Social </h6>
+                            <div class="columns-2">
+                                <ul class="social">
+                                    <li><a href="facebook.com"><span class="fa fa-facebook" aria-hidden="true"></span></a></li><br>
+                                    <li><a href="linkedin.com"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li><br>
+                                    <li><a href="twitter.com"><span class="fa fa-twitter" aria-hidden="true"></span></a></li><br>
+                                    <li><a href="instagram.com"><span class="fa fa-instagram" aria-hidden="true"></span></a></li><br>
+                                    <li><a href="pinterest.com"><span class="fa fa-pinterest" aria-hidden="true"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="copyright-footer text-center">
+            <div class="container">
+                <div class="columns">
+                    <p>@2025 Gepod. All rights reserved. Design by <a href="https://gepod.net/" target="_blank">Eddahmani</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- //copyright -->
+    </footer>
+    <!-- //footer -->
+
+    <!-- Js scripts -->
+ 
+
+    <!-- theme switch js (light and dark)-->
+    <script src="JS/theme-change.js"></script>
+    <script>
+        function autoType(elementClass, typingSpeed) {
+            var thhis = $(elementClass);
+            thhis.css({
+                "position": "relative",
+                "display": "inline-block"
+            });
+            thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+            thhis = thhis.find(".text-js");
+            var text = thhis.text().trim().split('');
+            var amntOfChars = text.length;
+            var newString = "";
+            thhis.text("|");
+            setTimeout(function () {
+                thhis.css("opacity", 1);
+                thhis.prev().removeAttr("style");
+                thhis.text("");
+                for (var i = 0; i < amntOfChars; i++) {
+                    (function (i, char) {
+                        setTimeout(function () {
+                            newString += char;
+                            thhis.text(newString);
+                        }, i * typingSpeed);
+                    })(i + 1, text[i]);
+                }
+            }, 1500);
+        }
+
+        $(document).ready(function () {
+            // Now to start autoTyping just call the autoType function with the 
+            // class of outer div
+            // The second paramter is the speed between each letter is typed.   
+            autoType(".type-js", 200);
+        });
+    </script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!--language switcher-->
+    <script src="JS/lang.js"></script>
+    <!--language switcher-->
+    <!-- //Js scripts -->
+</body>
+
+</html>
